@@ -1,16 +1,9 @@
 # shopping_list_app
 
-A new Flutter project.
+This Flutter App allows you to add items to your shopping list (here focus is groceries, you could easily change it) by filling the form that asks for a Title,quantity & category. Upon saving the form, the info is pushed to a firebase realtime server & it shows the groceries list screen where all the items are displayed. The data stored in backend is retrieved to the app whenever we open the apps or refresh it. This app also allows you to slide & delete items from the list & it is reflected in the backend as well.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
+References:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-[online documentation](https://docs.flutter.dev/)
